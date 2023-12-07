@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 250px;
+
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  margin: 0 0 2rem 0;
+  font-size: 2rem;
+}
+
+.list {
+  max-height: 485px;
+  overflow-y: auto;
+}
+
+.listItem {
+  list-style: none;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-color: antiquewhite;
+}
